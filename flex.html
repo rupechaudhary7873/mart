@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        .wrapper{
+            display: flex;
+            border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            justify-content: space-evenly;
+            /* flex-start(default), center, flex-end, space-between, space-around */
+
+
+            .box{
+                height: 200px;
+                width: 200px;
+                background-color: green;
+                text-align: center;
+                color: white;
+                font-size: 30px;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+    
+</body>
+</html>

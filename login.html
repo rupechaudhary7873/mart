@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 20px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #27ee9b;
+            
+        }
+        form{
+            background-color: white;
+            width: 50%;
+            margin: 0px auto;
+            padding: 50px 100px;
+            border-radius: 10px;
+
+        }
+        form input{
+            display: block;
+            padding: 20px;
+            width: 100%;
+            border: 1px solid gray;
+            margin-bottom: 20px;
+        }
+       form h1{
+            color: green;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form #show{
+            display: inline;
+            width: fit-content;
+        
+        }
+        form button{
+            display: block;
+            background-color: rgb(0, 128, 75);
+            padding: 10px 20px;
+            text-transform: uppercase;
+            border: none;
+            color: white;
+            margin: 0px auto;
+        }
+        form p{
+            text-align: center;
+            margin-top: 20px;
+        }
+        form p a{
+            color: rgb(0, 128, 75);
+            text-decoration: none;
+
+        }
+
+    </style>
+</head>
+<body>
+    <form action="" method="post">
+        <h1>Login</h1>
+        <input type="email" name="email" id="email" placeholder="email"/>
+        <input type="password" name="password" id="password" placeholder="password"/>
+        <input type="checkbox" name="show" id="show"/>Show password
+        <button>Sign in</button>
+        <p>Forget<a href="username">username / password</a>?</p>
+        <p>Don't have an account?<a href="http://">Sign up</a></p>
+    </form>
+    
+</body>
+</html>

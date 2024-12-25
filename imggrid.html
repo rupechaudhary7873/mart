@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .wrapper{
+            display: grid;
+            width: 100px;
+            height: 100px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            justify-content: space-between;
+            gap: 50px;
+            padding: 10px;
+        }
+        .box1 img{
+            grid-row: span  1;
+            object-fit: cover;
+        }
+        .box2{
+            grid-row: span 2;
+            object-fit: contain;
+        }
+        .box2 img{
+            grid-row: span 2;
+        }
+        .box3{
+            grid-row: span 1;
+        }
+        .box4{
+            grid-row: span 2;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="box1"><img src="image1/img1.jpg" alt=""></div>
+        <div class="box2"><img src="image1/img2.jpg" alt=""></div>
+        <div class="box3"><img src="image1/img1.jpg" alt=""></div>
+        <div class="box4"><img src="image1/img1.jpg" alt=""></div>
+        <div class="box5"><img src="image1/img1.jpg" alt=""></div>
+        <div class="box6"><img src="image1/img1.jpg" alt=""></div>
+        <div class="box7"><img src="image1/img1.jpg" alt=""></div>
+        <div class="box8"><img src="image1/img1.jpg" alt=""></div>
+    </div>
+    
+</body>
+</html>

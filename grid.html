@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-wrapper {
+            display: grid;
+            width: 100px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 40px;
+            padding: 10px 20px;
+            justify-content: space-between;
+        }
+        .box1{
+            
+            grid-row: span 2;
+            background-color: rgb(128, 0, 128);
+            padding: 50px;
+
+        }
+        .box2{
+            background-color: brown;
+            padding: 50px;
+        }
+        .box3{
+            background-color: aqua;
+            padding: 50px;
+
+        }
+        .box4{
+            grid-row: span 2;
+            background-color: black;
+            padding: 50px;
+        }
+        .box5{
+            background-color: green;
+            grid-column: span 2;
+            grid-row: span 2;
+            padding: 50px;
+        }
+        .box6{
+            background-color: green;
+            padding: 50px;
+        }
+        .box7
+        {
+        background-color: skyblue;
+        padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="grid-wrapper">
+        <div class="box1">Box 1</div>
+        <div class="box2">Box 2</div>
+        <div class="box3">Box 3</div>
+        <div class="box4">Box 4</div>
+        <div class="box5">Box 5</div>
+        <div class="box6">Box 6</div>
+        <div class="box7">Box 7</div>
+        
+    </div>
+    
+</body>
+</html>
